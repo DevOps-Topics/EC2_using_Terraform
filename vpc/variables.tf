@@ -1,7 +1,7 @@
 variable "vpc_cidr" {
   description = "cidr for terraform vpc"
   type = string
-  default = 192.168.0.0/20
+  default = 192.168.0.0/16
 
 }
 variable "my_vpc_tags" {
